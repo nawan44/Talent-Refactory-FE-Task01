@@ -3,13 +3,13 @@ import React from 'react';
 import './pages.css';
 
 
-class Git extends React.Component{
-render(){
-    return (
-        <div className="git">
-Git
-        </div>
-    )
-}
+class Git extends React.Component {
+    render() {
+        return (
+            <div className="container">
+                Git
+            </div>
+        )
+    }
 }
 export default Git
