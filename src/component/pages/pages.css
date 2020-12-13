@@ -38,3 +38,15 @@ th {
     text-align: left;
     padding: 8px;
 }
+
+.conflict-git {
+    padding: 10px;
+    text-align: left;
+
+}
+
+.conflict-git p {
+    padding: 10px;
+    text-align: left;
+
+}

@@ -35,7 +35,7 @@ const profile = {
 
 const cvProfile = {
     width: '30%',
-    borderRadius: '50px',
+    borderRadius: '50%',
     float: 'left'
 }
 const h2Profile = {
