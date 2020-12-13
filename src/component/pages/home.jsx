@@ -7,18 +7,22 @@ const fotoProfil = {
     width: '200px',
     borderRadius: '50px',
     textAlign: 'center',
-    margin: 'auto'
+    margin: 'auto',
+    margin: '50px 0 50px 0'
 }
 const containerHome = {
     width: '100%',
-    padding: '20px',
+    padding: '30px',
+    textAlign: 'center',
+    margin: '0 auto'
 }
 class Home extends React.Component {
     render() {
         return (
             <div className="container">
                 <div style={containerHome}>
-                    <h2>Talent Refactory Front End - Batch #1</h2>
+                    <h2>Talent Refactory </h2>
+                    <h2>Front End</h2>
                     <img src={profile} style={fotoProfil} />
                     <h3>Rachmat Gunawan</h3>
                 </div>
