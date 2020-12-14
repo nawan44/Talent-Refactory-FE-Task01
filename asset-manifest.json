@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/nawan44/Talent-Refactory-FE-Task01/static/css/main.604ff47c.chunk.css",
+    "main.js": "/nawan44/Talent-Refactory-FE-Task01/static/js/main.04d69829.chunk.js",
+    "main.js.map": "/nawan44/Talent-Refactory-FE-Task01/static/js/main.04d69829.chunk.js.map",
+    "runtime-main.js": "/nawan44/Talent-Refactory-FE-Task01/static/js/runtime-main.89261836.js",
+    "runtime-main.js.map": "/nawan44/Talent-Refactory-FE-Task01/static/js/runtime-main.89261836.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/nawan44/Talent-Refactory-FE-Task01/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.a068290d.chunk.js": "/nawan44/Talent-Refactory-FE-Task01/static/js/2.a068290d.chunk.js",
+    "static/js/2.a068290d.chunk.js.map": "/nawan44/Talent-Refactory-FE-Task01/static/js/2.a068290d.chunk.js.map",
+    "static/js/3.20d1483d.chunk.js": "/nawan44/Talent-Refactory-FE-Task01/static/js/3.20d1483d.chunk.js",
+    "static/js/3.20d1483d.chunk.js.map": "/nawan44/Talent-Refactory-FE-Task01/static/js/3.20d1483d.chunk.js.map",
+    "index.html": "/nawan44/Talent-Refactory-FE-Task01/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/nawan44/Talent-Refactory-FE-Task01/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.604ff47c.chunk.css.map": "/nawan44/Talent-Refactory-FE-Task01/static/css/main.604ff47c.chunk.css.map",
+    "static/js/2.a068290d.chunk.js.LICENSE.txt": "/nawan44/Talent-Refactory-FE-Task01/static/js/2.a068290d.chunk.js.LICENSE.txt",
+    "static/media/bali.9946df0a.jpg": "/nawan44/Talent-Refactory-FE-Task01/static/media/bali.9946df0a.jpg",
+    "static/media/logo.6ce24c58.svg": "/nawan44/Talent-Refactory-FE-Task01/static/media/logo.6ce24c58.svg",
+    "static/media/rahmat.b33459d5.jpg": "/nawan44/Talent-Refactory-FE-Task01/static/media/rahmat.b33459d5.jpg",
+    "static/media/sistem-git.9bea82b5.png": "/nawan44/Talent-Refactory-FE-Task01/static/media/sistem-git.9bea82b5.png",
+    "static/media/workflow.2ceb9ca2.svg": "/nawan44/Talent-Refactory-FE-Task01/static/media/workflow.2ceb9ca2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89261836.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.a068290d.chunk.js",
+    "static/css/main.604ff47c.chunk.css",
+    "static/js/main.04d69829.chunk.js"
+  ]
+}
