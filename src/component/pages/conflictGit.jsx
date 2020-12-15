@@ -1,8 +1,18 @@
 import { render } from '@testing-library/react';
 import React from 'react';
 import './pages.css';
-import workflow from '../../img/workflow.svg'
-import sistemGit from '../../img/sistem-git.png'
+import workflow from '../../img/workflow.svg';
+import sistemGit from '../../img/sistem-git.png';
+import foto1 from '../../img/1.jpg';
+import foto2 from '../../img/2.jpg';
+import foto3 from '../../img/3.jpg';
+import foto4 from '../../img/4.jpg';
+import foto5 from '../../img/5.jpg';
+import foto6 from '../../img/6.jpg';
+import foto7 from '../../img/7.jpg';
+import foto8 from '../../img/8.jpg';
+import foto9 from '../../img/9.jpg';
+import foto10 from '../../img/10.jpg';
 
 
 const frameYoutube = {
@@ -17,7 +27,7 @@ class KonflikGit extends React.Component {
     render() {
         return (
             <div className="container">
-                <div className="Konflik-git">
+                <div className="konflik-git">
                     <h1>Bekerja dengan Git</h1>
                     <p>Jika kita membuat sebuah proyek dengan lebih dari 1 orang yang terlibat dan menggunakan Git sebagai sarana development dan saling berbagi source code, maka kemungkinan akan terjadi konflik (saling tindih code) tinggi</p>
                     <img src={sistemGit} style={gambar} />
@@ -46,9 +56,10 @@ class KonflikGit extends React.Component {
                             <li>Si B melakukan clone project itu</li>
                             <li>Si B membuat fitur baru, misal fitur 1 terlebih dahulu membuat branch baru dibawah branch development dengan nama branch fitur 1</li>
                             <li>Si B selesai membuat fitur baru</li>
-                            <li>Si B melakukan push ke branch fitur 1</li>
+                            <li>Si B melakukan push ke branch fitur 1, lakukan fetch</li>
+                            <h6>git push -f origin &lt;nama branch	&gt;</h6>
                             <li>Si B melakukan request merge</li>
-                            <li>Si A ingin mel</li>
+                            <li>Si A menggabungkan source code</li>
                         </ol>
                     </p>
                     <h3>Merge Branch menggunakan github</h3>
@@ -59,6 +70,31 @@ class KonflikGit extends React.Component {
                     <iframe
                         style={frameYoutube}
                         src="https://www.youtube.com/embed/qaJ_OTMvpO0"></iframe>
+                    <p>Jika tidak ada konflik.
+                    Jika terdapat konflik dan menggunakan text editor Vs Code.
+                        Vs Code akan menandai file yang berubah dan file yang existing dan mana yang akan dipilih yang akan digunakan (merge)</p>
+                    <h3>Langlah - langkah merge Repository menggunakan Github</h3>
+                    <p>1. Selesai melakukan clone</p>
+                    <img src={foto1} style={gambar} />
+                    <p>2. Membuat branch baru dibawah branch main</p>
+                    <img src={foto2} style={gambar} />
+                    <p>3. Melakukan push ke branch baru</p>
+                    <img src={foto3} style={gambar} />
+                    <p>4. Di github muncul commit dengan branch baru</p>
+                    <img src={foto4} style={gambar} />
+                    <p>5. Detail perubahan (Compare) </p>
+                    <img src={foto5} style={gambar} />
+                    <p>6. Create Pull Request</p>
+                    <img src={foto6} style={gambar} />
+                    <p>7. Merge Pull Request</p>
+                    <img src={foto7} style={gambar} />
+                    <p>8. Confirm Merge</p>
+                    <img src={foto8} style={gambar} />
+                    <p>9. Delete branch (opsional)</p>
+                    <img src={foto9} style={gambar} />
+                    <p>10. Melakukan pull repo yang telah di merge</p>
+                    <img src={foto10} style={gambar} />
+
                 </div>
             </div>
         )
