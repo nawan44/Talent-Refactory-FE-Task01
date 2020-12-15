@@ -51,14 +51,14 @@ class KonflikGit extends React.Component {
                             <li>Si A ingin mel</li>
                         </ol>
                     </p>
-                    <h3>Menggunakan Terminal</h3>
+                    <h3>Merge Branch menggunakan github</h3>
                     <iframe
                         style={frameYoutube}
-                        src="https:youtube.com/embed/7XY5QhLP6Aw"></iframe>
-                    <h3>Menggunakan Vs Code</h3>
+                        src="https://www.youtube.com/embed/1ftwQ1kft9o"></iframe>
+                    <h3>Pull / Merge Source Git antara Github dan file lokal dengan Vs Code</h3>
                     <iframe
                         style={frameYoutube}
-                        src="https:youtube.com/embed/7XY5QhLP6Aw"></iframe>
+                        src="https://www.youtube.com/embed/qaJ_OTMvpO0"></iframe>
                 </div>
             </div>
         )
