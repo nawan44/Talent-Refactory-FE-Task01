@@ -12,6 +12,7 @@ const fotoProfil = {
 }
 const containerHome = {
     width: '100%',
+    height: '900px',
     padding: '30px',
     textAlign: 'center',
     margin: '0 auto'

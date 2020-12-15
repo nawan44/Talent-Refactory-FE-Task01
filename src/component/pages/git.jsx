@@ -24,7 +24,8 @@ class Git extends React.Component {
                     <h2>Pengertian Git dan Github</h2>
                     <dl className="definisi-git">
                         <dt>Git</dt>
-                        <dd>Git adalah software untuk berkolaborasi dan berbagi antar programmer saat bekerja. Bisa digunakan sebagai versioning control untuk mencatat versi software yang akan dipublish berdasarkan perubahan file atau repository</dd>
+                        <dd>Git adalah software untuk berkolaborasi dan berbagi antar programmer saat bekerja. Bisa digunakan sebagai versioning control untuk mencatat versi software yang akan dipublish berdasarkan perubahan file atau repository
+                        </dd>
                         <dt>Github</dt>
                         <dd>Github adalah salah satu platform untuk menyimpan source code menggunakan teknologi git . Kini github lebih dikenal sebagai media sosial programmer</dd>
                     </dl>
