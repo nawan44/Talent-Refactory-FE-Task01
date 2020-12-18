@@ -13,6 +13,7 @@ import foto7 from '../../img/7.jpg';
 import foto8 from '../../img/8.jpg';
 import foto9 from '../../img/9.jpg';
 import foto10 from '../../img/10.jpg';
+import foto11 from '../../img/11.jpg';
 
 
 const frameYoutube = {
@@ -94,7 +95,13 @@ class KonflikGit extends React.Component {
                     <img src={foto9} style={gambar} />
                     <p>10. Melakukan pull repo yang telah di merge</p>
                     <img src={foto10} style={gambar} />
-
+                    <p>11. Jika terdapat konflik pada file, kita dapat memilih untuk
+                        <p>menggunakan file existing sekarang (Accept Current Change) atau</p>
+                        <p>menggunakan file yang telah diubah (Accept Incoming Change) atau </p>
+                        <p>menggunakan kedua-duanya (Accept Both Change) atau</p>
+                        <p>bisa membandingkan kembali <a href="https://code.visualstudio.com/docs/editor/versioncontrol#_merge-conflicts">(Compare Change)</a>
+                        </p></p>
+                    <img src={foto11} style={gambar} />
                 </div>
             </div>
         )
